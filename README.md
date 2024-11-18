@@ -18,4 +18,4 @@ This Smart Contract guarantee:
   5) Integration with Python and Ganache test environment
 
 Through a test environment, such as Ganache, should be proof that the trades initially sotared in a Python Dictionary now are registered in a Blockchain (with Events to track trades,
-such as name of buyer and seller, quantity in kWh, price in EUR, value transfered in EUR, deliverytime (timestamp info, perhaps in string format). 
+such as name of buyer and seller, quantity in kWh, price in EUR, value transfered in EUR, deliverytime.
