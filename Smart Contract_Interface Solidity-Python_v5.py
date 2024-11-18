@@ -268,5 +268,5 @@ for key, trades in p2p_trades_final_dict_BT.items():
             # Add here the Smart Contract
             register_trade(contract_instance=contract_instance, buyer=buyer_address, seller=seller_address, quantity=quantity_Wh, price=price_Wei, delivery=delivery_unix)
             finalize_trade(contract_instance=contract_instance, trade_id=trade_id, buyer=buyer_address, quantity=quantity_Wh, price=price_Wei)
-        if counter >= 20:
+        if counter >= 10:
             break
